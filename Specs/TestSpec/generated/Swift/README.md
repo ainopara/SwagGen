@@ -160,9 +160,9 @@ To add support for a specific asynchronous library, just add an extension on `AP
 
 ## Requests
 
-- **TestSpec.GetInlineEnumResponse**: GET `/inlineenumresponse`
-- **TestSpec.PostString**: POST `/string`
-- **TestSpec.GetString**: GET `/string`
 - **TestSpec.GetUntagged**: GET `/untagged`
+- **TestSpec.GetInlineEnumResponse**: GET `/inlineenumresponse`
+- **TestSpec.GetString**: GET `/string`
+- **TestSpec.PostString**: POST `/string`
 - **TestSpec.TestTag**
 	- **PostInlinebody**: POST `/inlinebody`

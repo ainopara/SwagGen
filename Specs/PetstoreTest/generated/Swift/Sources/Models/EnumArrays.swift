@@ -17,10 +17,10 @@ public class EnumArrays: APIModel {
     }
 
     public enum JustSymbol: String, Codable {
-        case greaterThanOrEqualTo = ">="
+        case greaterThan = ">="
         case dollar = "$"
         public static let cases: [JustSymbol] = [
-          .greaterThanOrEqualTo,
+          .greaterThan,
           .dollar,
         ]
     }
